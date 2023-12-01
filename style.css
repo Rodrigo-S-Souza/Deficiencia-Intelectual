@@ -1,0 +1,156 @@
+.fundo::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url(./Imagens/close-up-de-mao-humana-segurando-azul-peca-quebra-cabeca-com-cerebro-e-roda-dentada-desenho.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: skyblue;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.navbar-custom {
+  background-color: #88dddd;
+}
+
+/* Estilos para telas maiores */
+.container1 {
+  margin: 0 0 30px 30px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr auto;
+  align-items: start;
+  gap: 30px;
+}
+
+.container2 {
+  margin: 0 0 30px 30px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 30px;
+}
+
+.container3 {
+  margin: 0 0 30px 30px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  border: 2px solid;
+}
+
+/* Ajustes para telas menores usando media queries */
+@media screen and (max-width: 768px) {
+  .container1,
+  .container2,
+  .container3 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 0 15px 15px 15px;
+    padding: 15px;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+h1 {
+  padding: 30px 30px 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 60px !important;
+  color: #000080;
+}
+
+ol,
+ul {
+  line-height: 30px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 30px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 4em;
+}
+
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 40px !important;
+  color: #000080;
+}
+
+.classe-representatividade {
+  padding: 0 0 30px 30px;
+}
+
+#img1,
+#img5 {
+  width: 350px;
+}
+
+#img2 {
+  padding: 55px 0 0 0;
+  width: 350px;
+}
+
+#img3,
+#img4,
+#img6,
+#img11 {
+  width: 400px;
+}
+
+#img7,
+#img9,
+#img12,
+#img13,
+#img15,
+#img16,
+#img17,
+#img18,
+#img19,
+#img20,
+#img21,
+#img22,
+#img23,
+#img24,
+#img25 {
+  width: 300px;
+}
+
+#img10 {
+  width: 400px;
+  padding: 50px 0 0 0;
+}
+
+#img8,
+#img14 {
+  width: 250px;
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.div-ultimo-paragrafo {
+  margin: 30px 30px 0 30px;
+}
