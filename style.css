@@ -20,13 +20,13 @@
   margin: 0 0 30px 30px;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: 2fr auto;
+  grid-template-columns: 1fr auto;
   align-items: start;
   gap: 30px;
 }
 
 .container2 {
-  margin: 0 0 30px 30px;
+  margin: 0 30px 30px 30px;
   max-width: 1200px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -35,10 +35,10 @@
 }
 
 .container3 {
-  margin: 0 0 30px 30px;
+  margin: 0 30px 30px 30px;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 30px;
   padding: 30px;
@@ -64,7 +64,7 @@
 }
 
 h1 {
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 60px !important;
@@ -85,6 +85,18 @@ p {
   text-indent: 4em;
 }
 
+span {
+  display: block;
+  margin-bottom: 30px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span a {
+  color: blue;
+  text-decoration: underline;
+}
+
 h2,
 h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -101,48 +113,37 @@ h4 {
   padding: 0 0 30px 30px;
 }
 
-#img1,
-#img5 {
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#imgSimboloDI,
+#imgMeninaLetras {
   width: 350px;
 }
 
-#img2 {
+#imgMeninaSindromeDown {
   padding: 55px 0 0 0;
   width: 350px;
 }
 
-#img3,
-#img4,
-#img6,
-#img11 {
+.imgHorizontal400px {
   width: 400px;
 }
 
-#img7,
-#img9,
-#img12,
-#img13,
-#img15,
-#img16,
-#img17,
-#img18,
-#img19,
-#img20,
-#img21,
-#img22,
-#img23,
-#img24,
-#img25 {
+.imgVertical {
   width: 300px;
 }
 
-#img10 {
+#imgDeboraSeabra {
   width: 400px;
   padding: 50px 0 0 0;
 }
 
-#img8,
-#img14 {
+#imgManuTrigo,
+#imgChrisBurke {
   width: 250px;
 }
 
@@ -153,4 +154,8 @@ figcaption {
 
 .div-ultimo-paragrafo {
   margin: 30px 30px 0 30px;
+}
+
+.div-bibliografia {
+  margin: 0 30px;
 }
